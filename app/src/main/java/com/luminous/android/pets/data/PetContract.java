@@ -46,6 +46,6 @@ public final class PetContract {
          *
          * Type: INTEGER
          */
-        public final static String COLUMN
+        public final static String COLUMN_PET_GENDER = "gender";
     }
 }
