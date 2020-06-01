@@ -7,6 +7,7 @@ import android.provider.BaseColumns;
  */
 public final class PetContract {
 
+    
 
     /**
      * Inner class that defines constant values for the pets database table.
