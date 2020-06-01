@@ -30,5 +30,22 @@ public final class PetContract {
          * Type: TEXT
          */
         public final static String COLUMN_PET_NAME = "name";
+
+        /**
+         * Breed of the pet.
+         *
+         * Type: TEXT
+         */
+        public final static String COLUMN_PET_BREED = "breed";
+
+        /**
+         * Gender of the pet.
+         *
+         * The only possible values are GENDER_UNKNOWN, GENDER_MALE,
+         * or GENDER_FEMALE.
+         *
+         * Type: INTEGER
+         */
+        public final static String COLUMN
     }
 }
