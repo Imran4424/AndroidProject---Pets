@@ -19,6 +19,7 @@ public class PetDbHelper extends SQLiteOpenHelper {
      */
     private final static int DATABASE_VERSION = 1;
 
+    
     public PetDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
