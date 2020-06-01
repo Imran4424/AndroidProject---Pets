@@ -14,5 +14,6 @@ public final class PetContract {
      */
     public static final class PetEntry implements BaseColumns {
 
+        public final static String TABLE_NAME = "pets";
     }
 }
