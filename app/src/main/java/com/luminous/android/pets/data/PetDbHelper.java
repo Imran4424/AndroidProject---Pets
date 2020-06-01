@@ -19,7 +19,11 @@ public class PetDbHelper extends SQLiteOpenHelper {
      */
     private final static int DATABASE_VERSION = 1;
 
-    
+    /**
+     * Constructs a new instance of {@link PetDbHelper}.
+     *
+     * @param context of the app
+     */
     public PetDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
