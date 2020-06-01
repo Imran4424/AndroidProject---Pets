@@ -23,6 +23,9 @@ public class PetDbHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+    /**
+     * This is called when the database is created for the first time.
+     */
     @Override
     public void onCreate(SQLiteDatabase db) {
 
