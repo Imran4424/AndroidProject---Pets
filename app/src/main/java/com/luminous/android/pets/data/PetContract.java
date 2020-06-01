@@ -9,7 +9,7 @@ public final class PetContract {
 
     // To prevent someone from accidentally instantiating the contract class,
     // give it an empty constructor.
-    private PetContract() {}
+    public PetContract() {}
 
     /**
      * Inner class that defines constant values for the pets database table.
