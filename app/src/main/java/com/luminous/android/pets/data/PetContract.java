@@ -54,5 +54,12 @@ public final class PetContract {
          * Type: INTEGER
          */
         public final static String COLUMN_PET_WEIGHT = "weight";
+
+        /**
+         * Possible values for the gender of the pet.
+         */
+        public final static int GENDER_UNKNOWN = 0;
+        public final static int GENDER_MALE = 1;
+        public final static int GENDER_FEMALE = 2;
     }
 }
