@@ -8,8 +8,8 @@
     tools:context=".EditorActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="80dp"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -19,11 +19,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/overview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="Overview"
+            android:textSize="32sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,6 +37,7 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
                 android:ems="10"
                 android:hint="Name"
                 android:inputType="textPersonName" />
