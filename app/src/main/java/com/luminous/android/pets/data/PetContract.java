@@ -17,7 +17,7 @@ public final class PetContract {
      * content authority is the package name for the app, which is guaranteed to be unique on the
      * device.
      */
-    public static final String CONTENT_AUTHORITY = "";
+    public static final String CONTENT_AUTHORITY = "com.luminous.android.pets";
 
     /**
      * Inner class that defines constant values for the pets database table.
