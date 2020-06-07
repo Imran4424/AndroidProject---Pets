@@ -12,17 +12,14 @@ public final class PetContract {
     public PetContract() {}
 
     /**
-<<<<<<< HEAD
      * The "Content authority" is a name for the entire content provider, similar to the
      * relationship between a domain name and its website.  A convenient string to use for the
      * content authority is the package name for the app, which is guaranteed to be unique on the
      * device.
      */
-    public static final String 
+   
 
     /**
-=======
->>>>>>> a0a0f63f178fab6a6f39e431d21998abe7aba5c6
      * Inner class that defines constant values for the pets database table.
      * Each entry in the table represents a single pet.
      */
@@ -75,7 +72,7 @@ public final class PetContract {
         public final static int GENDER_UNKNOWN = 0;
         public final static int GENDER_MALE = 1;
         public final static int GENDER_FEMALE = 2;
-<<<<<<< HEAD
+
 
         /**
          * Returns whether or not the given gender is {@link #GENDER_UNKNOWN}, {@link #GENDER_MALE},
@@ -88,7 +85,5 @@ public final class PetContract {
 
             return false;
         }
-=======
->>>>>>> a0a0f63f178fab6a6f39e431d21998abe7aba5c6
     }
 }
