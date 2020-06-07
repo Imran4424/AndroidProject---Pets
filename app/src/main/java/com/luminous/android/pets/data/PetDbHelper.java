@@ -39,11 +39,12 @@ public class PetDbHelper extends SQLiteOpenHelper {
                 + PetEntry.COLUMN_PET_NAME + " TEXT NOT NULL, "
                 + PetEntry.COLUMN_PET_BREED + " TEXT, "
                 + PetEntry.COLUMN_PET_GENDER + " INTEGER NOT NULL, "
-                + PetEntry.COLUMN_PET_WEIGHT + " INTEGER NOT NULL DEFAULT 0);";
+                + PetContract.PetEntry.COLUMN_PET_WEIGHT + " INTEGER NOT NULL DEFAULT 0);";
 
         // for example
         // we need to write PetContract.PetEntry.COLUMN_PET_WEIGHT if don't import following way
         // import com.luminous.android.pets.data.PetContract.PetEntry;
+
 
         // Execute the SQL statement
         db.execSQL(SQL_CREATE_PETS_TABLE);
