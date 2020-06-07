@@ -1,5 +1,6 @@
 package com.luminous.android.pets.data;
 
+import android.net.Uri;
 import android.provider.BaseColumns;
 
 /**
@@ -18,6 +19,12 @@ public final class PetContract {
      * device.
      */
     public static final String CONTENT_AUTHORITY = "com.luminous.android.pets";
+
+    /**
+     * Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
+     * the content provider.
+     */
+    public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 
     /**
      * Inner class that defines constant values for the pets database table.
